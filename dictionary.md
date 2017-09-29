@@ -2,6 +2,8 @@ The following table provides some quick translations of Stata commands into R.  
 
 Stata                         | R                                          | Description
 ------------------------------|--------------------------------------------|------------------------------
+cls                           | cat("\014")                                | Clears the screen
+clear all                     | rm(list=ls())                              | Clears data. Set fresh workspace
 insheet using "foo.csv", comma| mydata <- read.csv("foo.csv")              | Read csv file
 cd "mydirectory"              | setwd("mydirectory")                       | Change working directories
 reg y x1 x2                   | summary(lm(y~x1+x2, data=mydata))          | Ordinary least squares with constant
