@@ -1,6 +1,6 @@
 The following table provides some quick translations of Stata commands into R.  Since R supports multiple data sets, we need to specify a specific data set to manipulate when using data accessing/modifying commands. We use mydata as the default data set to target. 
 
-See also: (https://github.com/EconometricsBySimulation/RStata/wiki/Dictionary:-Stata-to-R)[https://github.com/EconometricsBySimulation/RStata/wiki/Dictionary:-Stata-to-R]
+See also: https://github.com/EconometricsBySimulation/RStata/wiki/Dictionary:-Stata-to-R
 
 Stata                         | R                                          | Description
 ------------------------------|--------------------------------------------|------------------------------
